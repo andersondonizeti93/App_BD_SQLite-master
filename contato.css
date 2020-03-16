@@ -1,0 +1,45 @@
+
+.btn-silver{
+    background: #C0C0C0;
+}
+/*modo de ativação do botão1*/
+.btn-silver:active{
+    position: relative;
+    top: 5px;
+    box-shadow: silver;
+
+}
+.btn2-silver2{
+    background:#C0C0C0;
+}
+/*modo de ativação do botão2*/
+.btn2-silver2:active{
+    position: relative;
+    top: 5px;
+    box-shadow: silver;
+}
+body{
+    margin: 0;
+}
+.nav{
+    width: 50%;
+    background-color: #000033;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+ul li a{
+    width: 150px;
+    color: black;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
